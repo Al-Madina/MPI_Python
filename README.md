@@ -66,7 +66,7 @@ I tested the code in the Lengau cluster. The result of distributing the fitness 
   <img src="figures/dist_ga.PNG" width="400" height="300" title="Distributing Fitness Evaluation">
 </p>
 From the figure, as the number of processes increases the computational time decreases. However, you need to be aware that it is not always the case
-that adding more processes will map to __significantly__ better performance. See this <a href="https://wiki.chpc.ac.za/scaling:start">demo</a>.
+that adding more processes will map to <strong>significantly</strong> better performance. See this <a href="https://wiki.chpc.ac.za/scaling:start">demo</a>.
 
 The following figure shows the result of distributing the runs. The longest column is when we executes the runs sequentially while the shorter column
 is when we use MPI.
